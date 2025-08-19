@@ -12,6 +12,7 @@ export default defineConfig({
       { text: 'Examples', link: '/markdown-examples' },
       { text: '小记', link: '/'},
       { text: 'python', link: '/'},
+      { text: 'CS', link: '/'},
       { text: '数学', link: '/'},
       { text: '读书笔记', link: '/'},
       { text: '不务正业', link: '/'}
