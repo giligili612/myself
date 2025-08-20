@@ -18,23 +18,30 @@ export default defineConfig({
       { text: '不务正业', link: '/'}
     ],
 
-    sidebar: [
-      {
+    sidebar: {
+      '/': [{
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
-      },
+      }
+    ],
+    '/booknotes/':[
       {
         text: '读书笔记',
-        collapsed: false,
+        link: '/booknotes/读书笔记',
+      },
+      {
+        text: '小说',
+        link: '/booknotes/novel/index',
+        collapsed: true,
         items: [
-          { text: '小说', link: '/booknotes/novel/index' },
           { text: '神秘复苏', link: '/booknotes/novel/神秘复苏' }
         ]
       }
-    ],
+    ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
