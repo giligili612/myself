@@ -14,7 +14,7 @@ export default defineConfig({
       { text: 'python', link: '/'},
       { text: 'CS', link: '/'},
       { text: '数学', link: '/'},
-      { text: '读书笔记', link: '/'},
+      { text: '读书笔记', link: '/booknotes/读书笔记'},
       { text: '不务正业', link: '/'}
     ],
 
@@ -24,6 +24,14 @@ export default defineConfig({
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: '读书笔记',
+        collapsed: false,
+        items: [
+          { text: '小说', link: '/booknotes/novel/index' },
+          { text: '神秘复苏', link: '/booknotes/novel/神秘复苏' }
         ]
       }
     ],
