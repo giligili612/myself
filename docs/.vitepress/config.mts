@@ -50,8 +50,8 @@ export default defineConfig({
     ],
     '/数学/':[
       {
-        text: '公式测试',
-        link: '/booknotes/读书笔记'
+        text: '数学主页',
+        link: '/math/数学'
       }
     ]
     },
