@@ -40,7 +40,7 @@ export default defineConfig({
         link: '/DSA/算法刷题',
       },
       {
-        text: '面试高频',
+        text: '小无相功',
         collapsed: true,
         items:[
           { text: 'n数之和问题', link: '/DSA/灵茶山艾府 基础算法精讲/n数之和'}
