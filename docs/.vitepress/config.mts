@@ -14,9 +14,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
-      { text: '小记', link: '/'},
-      { text: 'python', link: '/'},
+      { text: '小事记', link: '/diary/日记' },
+      { text: 'Python', link: '/'},
+      { text: 'Go', link: '/'},
       { text: '算法刷题', link: '/DSA/算法刷题'},
       { text: '数学', link: '/math/数学'},
       { text: '读书笔记', link: '/booknotes/读书笔记'},
@@ -24,14 +24,10 @@ export default defineConfig({
     ],
 
     sidebar: {
+      
     '/booknotes/':[
       {
-        text: '读书笔记',
-        link: '/booknotes/读书笔记',
-      },
-      {
         text: '小说',
-        link: '/booknotes/novel/index',
         collapsed: true,
         items: [
           { text: '神秘复苏', link: '/booknotes/novel/神秘复苏' }
@@ -40,20 +36,37 @@ export default defineConfig({
     ],
     '/DSA/':[
       {
-        text: '灵茶山艾府  基础算法精讲系列',
+        text: '导航',
         link: '/DSA/算法刷题',
+      },
+      {
+        text: '灵茶山艾府  基础算法精讲系列',
         collapsed: true,
         items:[
           { text: 'n数之和问题', link: '/DSA/灵茶山艾府 基础算法精讲/n数之和'}
         ]
       }
     ],
-    '/数学/':[
+    '/math/':[
       {
         text: '数学主页',
         link: '/math/数学'
       }
-    ]
+    ],
+    '/diary/':[
+      {
+        text: '小事记',
+        link: '/diary/日记'
+      },
+      {
+        text: '2025',
+        collapsed: true,
+        items:[
+          { text: '8月', link: '/diary/2025/8月'},
+          { text: '9月', link: '/diary/2025/9月'}
+        ]
+      }
+    ],
     },
 
     socialLinks: [
